@@ -54,14 +54,38 @@
 		8AC252EF20515BC900BC1451 /* TipsyTipCalc */ = {
 			isa = PBXGroup;
 			children = (
+				8AC2530420515BD900BC1451 /* Model */,
+				8AC2530320515BD500BC1451 /* View */,
+				8AC2530220515BCE00BC1451 /* Controller */,
 				8AC252F020515BC900BC1451 /* AppDelegate.swift */,
-				8AC252F220515BC900BC1451 /* ViewController.swift */,
 				8AC252F420515BC900BC1451 /* Main.storyboard */,
 				8AC252F720515BC900BC1451 /* Assets.xcassets */,
 				8AC252F920515BC900BC1451 /* LaunchScreen.storyboard */,
 				8AC252FC20515BC900BC1451 /* Info.plist */,
 			);
 			path = TipsyTipCalc;
+			sourceTree = "<group>";
+		};
+		8AC2530220515BCE00BC1451 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8AC252F220515BC900BC1451 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8AC2530320515BD500BC1451 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8AC2530420515BD900BC1451 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
